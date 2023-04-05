@@ -15,21 +15,28 @@
 //CODE
 /*
 let number = 1;
+console.log(number);
 
 number++;
+console.log(number);
 
 if (number >= 2) {
   console.log('yes');
 }
-
 */
 
 
+
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// creates a variable called nummber and sets the value to 1
+// ++ is a unary operator and adds a value of 1 after returning the orignial value
+// checks to see is the variale number is greater than or equal to a value of 2. Then out puts 'yes' if it is true.
+
+
+
+
+
+
 
 //CODE
 /*
@@ -40,14 +47,13 @@ if (name === 'Mary') {
 } else {
   console.log('How do you do?');
 }
-
-
 */
 
+
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// creates a variable called name and sets the value to 'Dane' 
+// checks to see if name is an excact match for 'Mary' and if true then console logs out 'Hi, Mary!' 
+// if the check for 'Mary' is false then we console log out 'How do you do?' 
 //
 
 //CODE
@@ -66,14 +72,20 @@ if (code > 250) {
 }
 
 console.log(secret)
-
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable called secret and leaves it undefined 
+// Create a variable called code and sets the value to 123 
+// First if statement checks to see if the value of code matches the value of 123.
+// If this is true then the variable secert is set to'super' and the value of code is set to double the original value.
+// 2nd if statement checks to see if the value of code is greater than 250. If this is true the value of secret is set to 'duper'.
+// The console logs out the value of secret.
+
+
+
+
+
 
 //CODE
 /*
@@ -87,12 +99,11 @@ if (isStudent === true && zip > 80000 ) {
   console.log('What are your hobbies?');
 } else if (isStudent === true) {
   console.log('Welcome to Prime!');
-} else {
+} else {;
   console.log('How about the weather?')
 }
 
 */
-
 
 
 
@@ -130,10 +141,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// colorOne should have a value of blue
 let colorOne = 'red';
+// colorTwo should hava a value of red
 let colorTwo = 'blue';
 let mix = true;
 
+//add colorTwo = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +161,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// replace || with && to make it and 'and' statement.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -157,13 +172,20 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+
 let age = 21;
 const minAge = 21;
+// 'no entry' and 'enter' should be swapped.
+// if(minAge <= age) {
+//  console.log('enter');
+// } else {
+//  console.log('no entry');
+//}
 
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
-*/
 
+*/
