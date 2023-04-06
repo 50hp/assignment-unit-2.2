@@ -28,14 +28,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// creates a variable called nummber and sets the value to 1
-// ++ is a unary operator and adds a value of 1 after returning the orignial value
-// checks to see is the variale number is greater than or equal to a value of 2. Then out puts 'yes' if it is true.
 
-
-
-
-
+// creates a variable called name and sets the value to 'Dane' 
+// checks to see if name is an excact match for 'Mary' and if true then console logs out 'Hi, Mary!' 
+// if the check for 'Mary' is false then we console log out 'How do you do?' 
 
 
 //CODE
@@ -51,10 +47,13 @@ if (name === 'Mary') {
 
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// creates a variable called name and sets the value to 'Dane' 
-// checks to see if name is an excact match for 'Mary' and if true then console logs out 'Hi, Mary!' 
-// if the check for 'Mary' is false then we console log out 'How do you do?' 
-//
+
+// Create a variable called secret and leaves it undefined 
+// Create a variable called code and sets the value to 123 
+// First if statement checks to see if the value of code matches the value of 123.
+// If this is true then the variable secert is set to'super' and the value of code is set to double the original value.
+// 2nd if statement checks to see if the value of code is greater than 250. If this is true the value of secret is set to 'duper'.
+// The console logs out the value of secret.
 
 //CODE
 /*
@@ -75,17 +74,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// Create a variable called secret and leaves it undefined 
-// Create a variable called code and sets the value to 123 
-// First if statement checks to see if the value of code matches the value of 123.
-// If this is true then the variable secert is set to'super' and the value of code is set to double the original value.
-// 2nd if statement checks to see if the value of code is greater than 250. If this is true the value of secret is set to 'duper'.
-// The console logs out the value of secret.
-
-
-
-
-
+//Create variable isStudent and sets the value to ture
+//Create varialbe age and sets the value to 34
+//Create variable zip and sets the value to 55407
+//Checks to see if isStudent is equal to true and if zip is greater than 80000 and if so logs out You're a student on the West Coast!
+//Checks to see if isStudent is equal to false or age is less than 30 if so then logs out What are your hobbies?
+//Checks to see if isStudent is equal to true and logs out Welcome to Prime!
+//Logs out How about hte weather? if no other conditions are meet
 
 //CODE
 /*
